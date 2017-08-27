@@ -129,7 +129,7 @@
 		// A exibição do menu depende da definição de visibilidade do agrupador.
 		if (settings.showGroup) {
 			if (settings.showMenu) {
-				eMenu.appendTo(_this);
+				//eMenu.appendTo(_this);
 			}
 		}
 		else {
@@ -149,7 +149,7 @@
 		language: 'pt-BR',
 		showGroup: true,
 		showMenu: true,
-		sortDesc: true,
+		sortDesc: false,
 	};
 
 	// value = "YYYY-MM-DD" (ISO 8601)
