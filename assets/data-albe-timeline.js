@@ -21,6 +21,7 @@ var data = [
 			content: ''
 		}]
 	},
+
 	{
 		time: '2018-05-15',
 		body: [{
@@ -75,6 +76,48 @@ var data = [
 		{
 			tag: 'span',
 			content: 'Last date for registration',
+			attr: {
+				cssclass: 'group-sub-title'
+			}
+		},
+		{
+			tag: 'p',
+			content: ''
+		}]
+	},
+	{
+		time: '2018-06-28',
+		body: [{
+			tag: 'h3',
+			content: '',
+			attr: {
+				cssclass: 'group-title'
+			}
+		},
+		{
+			tag: 'span',
+			content: 'Event starts',
+			attr: {
+				cssclass: 'group-sub-title'
+			}
+		},
+		{
+			tag: 'p',
+			content: ''
+		}]
+	},
+	{
+		time: '2018-06-29',
+		body: [{
+			tag: 'h3',
+			content: '',
+			attr: {
+				cssclass: 'group-title'
+			}
+		},
+		{
+			tag: 'span',
+			content: 'Event ends',
 			attr: {
 				cssclass: 'group-sub-title'
 			}
