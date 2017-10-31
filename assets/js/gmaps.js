@@ -1116,7 +1116,7 @@ GMaps.prototype.loadFromKML = function(options) {
 };
 
 GMaps.prototype.addLayer = function(layerName, options) {
-  //var default_layers = ['weather', 'clouds', 'traffic', 'transit', 'bicycling', 'panoramio', 'places'];
+  var default_layers = ['weather', 'clouds', 'traffic', 'transit', 'bicycling', 'panoramio', 'places'];
   options = options || {};
   var layer;
 
