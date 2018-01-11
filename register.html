@@ -21,8 +21,22 @@
 <link rel="shortcut icon" href="/fav/favicon.ico">
 <meta name="msapplication-config" content="/fav/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="1.css">
+  <script src="1.js"></script>
+  <script src="2.js"></script>
 
-
+<style type="text/css">
+	$custom-file-text: (
+  placeholder: (
+    en: "Choose file...",
+    es: "Seleccionar archivo..."
+  ),
+  button-label: (
+    en: "Browse",
+    es: "Navegar"
+  )
+);
+</style>
    
 </head>
 <body>
@@ -48,7 +62,9 @@
 							</li>
 							
 							
-							<li><a href="contact-us.html">Sponsorship</a></li>
+							<li>
+								<a href="advisory.html">Advisory Committee</a>
+							</li>
 											<li class="active"><a href="register.html">Register Now</a></li>
 											<li><a href="contact-us.html">Contact</a></li>
 						</ul>
@@ -72,7 +88,9 @@
 												
 											</li>
 											
-											<li><a href="contact-us.html">Sponsorship</a></li>
+											<li>
+								<a href="advisory.html">Advisory Committee</a>
+							</li>
 											<li><a href="register.html">Register Now</a></li>
 											<li><a href="contact-us.html">Contact</a></li>
 										</ul>
@@ -106,15 +124,14 @@
 		<div class="container">
 			<div class="row cause">
 				<div class="col-md-10 col-md-offset-1">
-					<div class="image-wrapper">
-						<img class="img-responsive" src="assets\img\services\registration1.jpg" alt="">
-					</div>
+					
 					<div class="meta">
-						<h4>Registration Details</h4>
+						<h4><b>REGISTRATION DETAILS</b></h4>
 					</div>
 					
 					<div class="info-block"><div class="row"><div class="col-sm-12">
 						<h3>Registration</h3>
+						
 						<p align="justify">At least one author of an accepted paper is required to register.
 If an author has got more than one accepted papers, each paper need to be registered.
 Registration fee will include conference kit with proceedings, lunch and refreshments.
@@ -132,7 +149,8 @@ Make sure, Author name and Paper ID is clearly mentioned in the Funds Transfer A
 Students (UG/PG Students and only Full time Research/PhD Scholars) have to submit their scanned copy of the ID card along with the Registration form. Original Student ID card and Bonafide certificate from the Head of the Institution/Department need to be produced at the time of conference.
 
 </p>
-						</div><div class="row">
+						</div>
+						<div class="row">
 </div><br/>
 
 					</div>
@@ -141,7 +159,65 @@ Students (UG/PG Students and only Full time Research/PhD Scholars) have to submi
 						<h3>Registration fee details </h3>
 						<p align="justify">To be updated
 
-</p>
+</p><br/>
+
+<!--modal-->
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Upload Paper</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Upload Paper</h4>
+      </div>
+      <div class="modal-body">
+        <form action="#">
+  
+  <div class="form-group row">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+    </div>
+  </div>
+   <div class="form-group row">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email ID" required>
+    </div>
+  </div>
+ <div class="form-group row">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Paper Title</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="colFormLabel" placeholder="Enter the paper title" name="title" required>
+    </div>
+  </div>
+  <div class="custom-file">
+  <label class="custom-file-label" for="customFile">Choose  docx file</label>
+  <input type="file" class="custom-file-input" id="customFile" accept=".docx">
+  
+</div><br/>
+
+<div class="custom-file">
+  <label class="custom-file-label" for="customFile">Choose  pdf file</label>
+  <input type="file" class="custom-file-input" id="customFile" accept=".pdf">
+  
+</div><br/>
+
+ <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-2 right">Submit</button>
+    </div><br/><br/>
+</form>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
 						</div><div class="row">
 </div><br/>
 
