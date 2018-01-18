@@ -18,8 +18,8 @@
 			$.fn.albeTimeline.languages[settings.language] :
 			{ // pt-BR
 				days: ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'],
-				months: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Mayo', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
-				shortMonths: ['Jan', 'Fev', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+				months: ['Janeiro', 'Fevereiro', 'Março', 'April', 'Mayo', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+				shortMonths: ['Jan', 'Fev', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
 				separator: 'de',
 				msgEmptyContent: 'Sem informações a serem exibidas.',
 			};
