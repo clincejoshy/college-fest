@@ -238,6 +238,7 @@ The submission deadline is firm and not negotiable.
 </form>
 <script type="text/javascript">
 	$("#idForm").submit(function(e) {
+	e.preventDefault(); // avoid to execute the actual submit of the form.
 
     var url = "https://econference.cf/new/upload.php"; // the script where you handle the form input.
 
@@ -253,7 +254,7 @@ The submission deadline is firm and not negotiable.
            }
          });
 
-    //e.preventDefault(); // avoid to execute the actual submit of the form.
+    
 });
 </script>
       </div>
