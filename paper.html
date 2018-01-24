@@ -24,34 +24,34 @@
 <link rel="stylesheet" href="1.css">
   <script src="1.js"></script>
   <script src="2.js"></script>
-   
+
 </head>
 <body>
 <style>
-      
+
 .modal-header {
-    
+
     padding:100px 16px;
-    
-    
+
+
  }
 
 </style>
 
 	<!-- header -->
 	<header>
-		
+
 		<nav class="navigation">
 			<div class="container">
 				<div class="row">
-				
+
 					<div class="logo-wrap col-md-12 col-xs-6">
 					<div class="col-md-3 col-sm-12 ">
 				<img src="assets/img/icons/nssce_logo.png" height="100" width="180">
 				</div>
-					
+
 						<a href="index.html">NGIST’18</a><br/><b>
-						<h4>International Conference on Next Gen Information Systems and Technology 
+						<h4>International Conference on Next Gen Information Systems and Technology
 5th and 6th July 2018</h4></b>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
 							<li>
 								<a href="index.html">Home</a>
 							</li>
-							
+
 							<li>
 								<a href="service-single.html">Call for Papers</a>
 							</li>
@@ -69,8 +69,8 @@
 								<a href="keynote.html">Keynote speakers</a>
 							</li>
 							</li>
-							
-							
+
+
 							<li>
 								<a href="advisory.html">Advisory Committee</a>
 							</li>
@@ -81,11 +81,11 @@
 											<li><a href="contact-us.html">Contact</a></li>
 						</ul>
 					</div>
-					
+
 				</div>
 			</div>
-			
-			<!--[ MOBILE-MENU-AREA START ]--> 
+
+			<!--[ MOBILE-MENU-AREA START ]-->
 			<div class="mobile-menu-area">
 				<div class="container">
 					<div class="row">
@@ -95,14 +95,14 @@
 									<nav id="mobile-nav">
 										<ul>
 											<li><a href="index.html">Home </a></li>
-											
+
 											<li><a href="service-single.html">Call for papers</a>
-												
+
 											</li>
 											<li>
 								<a href="keynote.html">Keynote speakers</a>
 							</li>
-											
+
 											<li>
 								<a href="advisory.html">Advisory Committee</a>
 							</li>
@@ -113,13 +113,13 @@
 											<li><a href="contact-us.html">Contact</a></li>
 										</ul>
 									</nav>
-								</div>	
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--[ MOBILE-MENU-AREA END  ]-->	
+			<!--[ MOBILE-MENU-AREA END  ]-->
 		</nav>
 	</header>
 	<br/><br/><br/><br/><br/><br/><br/>
@@ -135,21 +135,21 @@
 			</div>
 		</div>
 	</div>
-	
-	
+
+
 	<!-- Topics of interest -->
 	<div class="causes-page-wrapper single-cause">
 		<div class="container">
 			<div class="row cause">
 				<div class="col-md-10 col-md-offset-1">
-					
+
 					<div class="meta">
 						<h4><b>SUBMISSION GUIDELINES</b></h4>
 					</div>
-					
+
 					<div class="info-block"><div class="row"><div class="col-sm-12">
-						
-						
+
+
 						<p align="justify">Papers that do not comply with the Submission Guidelines will be rejected without review. Please note:
 All papers must be submitted electronically through the paper submission system in Word or PDF format only. Paper size should be 8-12 pages.
 Papers must be clearly presented in English
@@ -169,7 +169,7 @@ The submission deadline is firm and not negotiable.
 						<h3>Publishing process
 </h3>
 						<p align="justify">
-						Authors submit papers via the online submission system. Paper format should be in Word. Organizing committee performs a pre reviewing (adherence to the submission guidelines and English language usage) and papers will be assigned to distinguished reviewers for refereeing. The Organizing Committee will send the review reports to authors for paper improvement once at least two productive review reports are received. Author will be required to revise paper and update the revised version. If necessary, revised paper will be sent to the original reviewers for the second round of review. Acceptance notification will be sent to the corresponding author. Author should pay the registration fee, and upload the final version of paper (Camera ready). Final version of paper will be proofread by the Organizing Committee. Kindly do check and correct your paper carefully when proofs are sent to you. 
+						Authors submit papers via the online submission system. Paper format should be in Word. Organizing committee performs a pre reviewing (adherence to the submission guidelines and English language usage) and papers will be assigned to distinguished reviewers for refereeing. The Organizing Committee will send the review reports to authors for paper improvement once at least two productive review reports are received. Author will be required to revise paper and update the revised version. If necessary, revised paper will be sent to the original reviewers for the second round of review. Acceptance notification will be sent to the corresponding author. Author should pay the registration fee, and upload the final version of paper (Camera ready). Final version of paper will be proofread by the Organizing Committee. Kindly do check and correct your paper carefully when proofs are sent to you.
 
 
 </p>
@@ -182,8 +182,86 @@ The submission deadline is firm and not negotiable.
 				<div class="info-block"><div class="row"><div class="col-sm-12">
 						<h3>Upload paper is now open</h3>
 						<p align="justify">
-						<form id="idForm" action="https://econference.cf/new/upload1.php" method='post' enctype="multipart/form-data">
-  
+							<!--modal-->
+							<!-- Trigger the modal with a button -->
+							<br/><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Upload Paper</button><br/><br/><br/>
+
+							<!-- Modal -->
+							<div id="myModal" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        <h4 class="modal-title">Upload Paper</h4>
+							      </div>
+							      <div class="modal-body">
+							        <form id="idForm" action="https://econference.cf/new/upload1.php" method='post' enctype="multipart/form-data">
+
+							  <div class="form-group row">
+							    <label for="colFormLabel" class="col-sm-2 col-form-label">Name</label>
+							    <div class="col-sm-10">
+							      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+							    </div>
+							  </div>
+							   <div class="form-group row">
+							    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+							    <div class="col-sm-10">
+							      <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email ID" required>
+							    </div>
+							  </div>
+							 <div class="form-group row">
+							    <label for="colFormLabel" class="col-sm-2 col-form-label">Paper Title</label>
+							    <div class="col-sm-10">
+							      <input type="text" class="form-control" id="colFormLabel" placeholder="Enter the paper title" name="title" required>
+							    </div>
+							  </div>
+							  <div class="custom-file">
+							  <label class="custom-file-label" for="customFile" name="paper_source">Choose  docx file</label>
+							  <input type="file" class="custom-file-input" id="customFile" accept=".docx" required>
+
+							</div><br/>
+
+							<div class="custom-file">
+							  <label class="custom-file-label" for="customFile">Choose  pdf file</label>
+							  <input type="file" class="custom-file-input" id="customFile" accept=".pdf" name="paper_pdf" required>
+
+							</div><br/>
+
+							 <div class="col-auto">
+							      <button type="submit" class="btn btn-primary mb-2 right">Submit</button>
+							    </div><br/><br/>
+							</form>
+							<!--script type="text/javascript">
+								$("#idForm").submit(function(e) {
+
+							    var url = "demo.php"; // the script where you handle the form input.
+
+							    $.ajax({
+							           type: "POST",
+									   method: "POST",
+									   enctype: "multipart/form-data",
+							           url: url,
+							           data: $("#idForm").serialize(), // serializes the form's elements.
+							           success: function(data)
+							           {
+							               //location.reload(); // show response from the php script.
+										   alert(data);
+							           }
+							         });
+
+							    //e.preventDefault(); // avoid to execute the actual submit of the form.
+							});
+						</script-->
+							      </div>
+
+							    </div>
+
+							  </div>
+							</div>
+						<!--form id="idForm" action="https://econference.cf/new/upload1.php" method='post' enctype="multipart/form-data">
+
   <div class="form-group row">
     <label for="colFormLabel" class="col-sm-2 col-form-label">Name</label>
     <div class="col-sm-10">
@@ -205,24 +283,24 @@ The submission deadline is firm and not negotiable.
   <div class="custom-file">
   <label class="custom-file-label" for="customFile" name="paper_source">Choose  docx file</label>
   <input type="file" class="custom-file-input" id="customFile" accept=".docx" required>
-  
+
 </div><br/>
 
 <div class="custom-file">
   <label class="custom-file-label" for="customFile">Choose  pdf file</label>
   <input type="file" class="custom-file-input" id="customFile" accept=".pdf" name="paper_pdf" required>
-  
+
 </div><br/>
 
  <div class="col-auto">
       <button type="submit" class="btn btn-primary mb-2 right">Submit</button>
     </div><br/><br/>
-</form>
+</form-->
 
 </p>
 
       </div>
-      
+
     </div>
 
   </div>
@@ -259,11 +337,11 @@ The submission deadline is firm and not negotiable.
 				<div class="col-md-3 col-sm-6">
 					<div class="about widget clearfix">
 						<div class="logo-wrap">
-						
+
 							<a href="index.html">NGIST’18</a>
 						</div>
 						<p>International Conference on Next Gen Information Systems and Technology<br/>28th and 29th June 2018</p>
-						
+
 					</div>
 				</div>
 				<div class="col-md-2 col-sm-6 ">
@@ -274,16 +352,16 @@ The submission deadline is firm and not negotiable.
 							<a href="service-single.html"><i class="fa fa-angle-double-right"></i>Call for papers</a>
 							<a href="contact-us.html"><i class="fa fa-angle-double-right"></i>contact-us</a>
 							<a href="#"><i class="fa fa-angle-double-right"></i>Register</a>
-							
+
 						</div>
 					</div>
 				</div>
 				<div class="col-md-1 col-sm-6 ">
 				<img src="assets/img/icons/motto.png" height="100" width="180">
 				</div>
-				
-				
-				
+
+
+
 			</div>
 		</div>
 		<div class="footer-bar">
