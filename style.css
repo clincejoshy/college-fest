@@ -1196,7 +1196,7 @@ form.comment-form.altered .field:last-child {
 .navigation .menu-wrap .menu > li {
   position: relative;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 15px;
   padding-bottom: 29px;
 }
 .navigation .menu-wrap .menu > li a, .navigation .menu-wrap .menu > li span {
@@ -1332,7 +1332,7 @@ form.comment-form.altered .field:last-child {
   .navigation .menu-wrap .menu > li .submenu {
     position: static;
     margin: 0;
-    width: 210px;
+    width: 100px;
   }
   .navigation #menu-toggle {
     display: block;
