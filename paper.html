@@ -242,13 +242,7 @@
 							      <input type="text" class="form-control" id="colFormLabel" placeholder="Enter the paper title" name="title" required>
 							    </div>
 							  </div>
-							  <div class="custom-file">
-							  <label class="custom-file-label" for="customFile" name="paper_source">Choose  docx file</label>
-							  <input type="file" class="custom-file-input" id="customFile" accept=".docx" required>
-
-							</div><br/>
-
-							 <div class="custom-file">
+							   <div class="custom-file">
 							  <label class="custom-file-label" for="customFile" name="paper_source">Choose  docx file</label>
 							  <input type="file" class="custom-file-input" id="paper_source" name="paper_source" accept=".docx" required>
 
@@ -258,7 +252,11 @@
 							  <label class="custom-file-label" for="customFile">Choose  pdf file</label>
 							  <input type="file" class="custom-file-input" id="paper_pdf" accept=".pdf" name="paper_pdf" required>
 
-							</div><br/><br/><br/>
+							</div><br/>
+
+							 <div class="col-auto">
+							      <button type="submit" class="btn btn-primary mb-2 right">Submit</button>
+							    </div><br/><br/>
 							</form>
 							<!--script type="text/javascript">
 								$("#idForm").submit(function(e) {
