@@ -222,7 +222,7 @@
 							        <h4 class="modal-title">Upload Paper</h4>
 							      </div>
 							      <div class="modal-body">
-							        <form id="idForm" action="https://econference.cf/new/upload1.php" method='post' enctype="multipart/form-data">
+							        <form id="idForm" action="https://econference.cf/upload1.php" method='post' enctype="multipart/form-data">
 <br/><br/>
 							  <div class="form-group row">
 							    <label for="colFormLabel" class="col-sm-2 col-form-label">Name</label>
@@ -258,10 +258,10 @@
 							      <button type="submit" class="btn btn-primary mb-2 right">Submit</button>
 							    </div><br/><br/>
 							</form>
-							<!--script type="text/javascript">
+							<script type="text/javascript">
 								$("#idForm").submit(function(e) {
 
-							    var url = "demo.php"; // the script where you handle the form input.
+							    var url = "https://econference.cf/upload1.php"; // the script where you handle the form input.
 
 							    $.ajax({
 							           type: "POST",
@@ -276,9 +276,9 @@
 							           }
 							         });
 
-							    //e.preventDefault(); // avoid to execute the actual submit of the form.
+							    e.preventDefault(); // avoid to execute the actual submit of the form.
 							});
-						</script-->
+						</script>
 							      </div>
 
 							    </div>
