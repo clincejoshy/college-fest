@@ -259,26 +259,28 @@
 							    </div><br/><br/>
 							</form>
 							<script type="text/javascript">
-								$("#idForm").submit(function(e) {
+    var frm = $('#idForm');
 
-							    var url = "https://econference.cf/upload2.php"; // the script where you handle the form input.
+    frm.submit(function (e) {
 
-							    $.ajax({
-							           type: "POST",
-									   method: "POST",
-									   enctype: "multipart/form-data",
-							           url: url,
-							           data: $("#idForm").serialize(), // serializes the form's elements.
-							           success: function(data)
-							           {
-							               //location.reload(); // show response from the php script.
-										   alert(data);
-							           }
-							         });
+        e.preventDefault();
 
-							    e.preventDefault(); // avoid to execute the actual submit of the form.
-							});
-						</script>
+        $.ajax({
+            type: frm.attr('method'),
+            url: frm.attr('action')
+			enctype: frm.attr('enctype'),
+            data: frm.serialize(),
+            success: function (data) {
+                console.log('Submission was successful.');
+                console.log(data);
+            },
+            error: function (data) {
+                console.log('An error occurred.');
+                console.log(data);
+            },
+        });
+    });
+</script>
 							      </div>
 
 							    </div>
